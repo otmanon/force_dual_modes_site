@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Force-Dual Modes</title>
+	<meta name="author" content="Otman Benchekrou, Eitan Grinspun, Maurizio Chiaramonte, Philip Allen Etter"/>
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<h1 id="force_dual_modes_siggraphasia2025" style="font-size:32px;"> Force-Dual Modes: Subspace Design from Stochastic Forces</h1>
+
+<h1>  Otman Benchekroun<sup>1</sup>, Eitan Grinspun<sup>1</sup>,  <br>Maurizio Chiaramonte<sup>2</sup>, Philip Allen Etter<sup>2</sup></h1>
+
+<h2 style="text-align:center;"> <sup>1</sup>University of Toronto, <sup>2</sup>Meta Reality Labs</h1>
+<h1 > <em>SIGGRAPH Asia 2025</em></h1>
+
+
+<div style="text-align: center; margin-bottom: 30px;">
+  <a href="teaser.png" target="_blank">
+    <img src="teaser.png" alt="Teaser: Baby Dragon Spring Muscles" style="width:80%;" />
+  </a>
+  <div style="margin-top:10px; color:#444; font-size:18px;">
+  </div>
+</div>
+
+<h1 id="abstract" style="text-align:left">Abstract</h1>
+<p> 
+  Designing subspaces for Reduced Order Modeling (ROM) is crucial for accelerating finite element simulations in graphics and engineering. Unfortunately, it's not always clear which subspace is optimal for arbitrary dynamic simulation. We propose to construct simulation subspaces from force distributions, allowing us to tailor such subspaces to common scene interactions involving constraint penalties, handles-based control, contact and musculoskeletal actuation. To achieve this we adopt a statistical perspective on Reduced Order Modelling, which allows us to push such user-designed force distributions through a linearized simulation to obtain a dual distribution on displacements. To construct our subspace, we then fit a low-rank Gaussian model to this displacement distribution, which we show generalizes Linear Modal Analysis subspaces for uncorrelated unit variance force distributions, as well as Green's Function subspaces for low rank force distributions. We show our framework allows for the construction of subspaces that are optimal both with respect to physical material properties, as well as arbitrary force distributions as observed in handle-based, contact, and musculoskeletal scene interactions.
+
+</p>
+
+<h1 id="downloads" style="text-align:left">Downloads</h1>
+<ul>
+<li> <a href="./fdm_paper.pdf">Paper (116 MB)</a></li>
+<li> <a href="./submission_video.mp4"> Submission Video (40 MB)</a></li>
+<li> <a href="./Fast-Forward.mp4">Fast Forward Video (3 MB) </a></li>
+<li> <a href="./fdm_SIGGRAPH_2025_ROMworkshop.pptx">SIGGRAPH 2025 ROM Workshop Slides (55 MB)</a></li>
+<li> <a href="./submission_video_pptx.zip"> Submission Video Slides (183 MB)</a></li>
+</ul>
+
+<h1 id="bibtex" style="text-align:left">Bibtex</h1>
+<pre><code>@article{benchekroun2025ForceDualModes,
+  title = {Force-Dual Modes: Subspace Design from Stochastic Forces},
+  author = {Otman Benchekroun, Eitan Grinspun, Maurizio Chiaramonte, Philip Allen Etter},
+  year = {2025},
+  journal = {Transactions on Graphics (SIGGRAPH Asia)},
+}
+</code></pre>
