@@ -1,0 +1,3 @@
+[submodule "deps/simkit"]
+	path = deps/simkit
+	url = https://github.com/otmanon/simkit.git
