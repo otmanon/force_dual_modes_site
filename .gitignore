@@ -1,0 +1,11 @@
+# Large presentation files
+*.pptx
+
+# Large video files
+*.mp4
+
+# Large PDF files (if needed)
+# *.pdf
+
+# Note: .pptx files are tracked with Git LFS
+

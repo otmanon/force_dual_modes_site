@@ -1,0 +1,77 @@
+<html style="text-align: center;">
+    <head>
+        <title>Complementary Dynamics Example Gallery</title>
+        <link type="text/css" rel="stylesheet" href="gallery.css"/>
+    </head>
+    <body style="font-family:'Linux Libertine', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+
+        <figure>
+            <img src="fish.gif" width="100%"/>
+        </figure>
+        <p> We add secondary motion to rig animations in real-time by using a subspace for the physics simulation.</p>
+
+    
+        <div>
+            <br>
+                <p style="text-align:justify; margin-right:15%; font-size:24px;">
+                    Skinning Eigenmode Subspace
+                </p >
+                <p style="text-align:justify; margin-right:15%;">We propose a linear blend skinning-like subspace for secondary motion. 
+                    Our subspace is fully parameterized by a set of skinning weights, which are found 
+                via an eigen-decomposition of the elastic energy Laplacian</p>
+                
+                <video width="50%" controls> 
+                    <source src="videos/charizard-skinning-modes.mp4"> 
+                </video>
+
+                <p style="text-align:justify; margin-right:15%;">
+                    With a simple modification to the elastic energy Laplacian, 
+                    our skinning eigenmodes can be made rig-aware, and satisfy the rig-orthogonality constraint inherently</p>
+                
+                <video width="50%" controls> 
+                    <source src="videos/charizard-skinning-modes-comp.mp4"> 
+                </video>
+
+                <p style="text-align:justify; margin-right:15%;">
+                To accelerate computation of energetic non-linearities in our simulation, we extend our skinning modes with
+                skinning clusters. Our clusters reflect the rig-awareness of our skinning weights</p>
+                <figure>
+                    <img src="videos/clusters.png" width="100%"/>
+                </figure>
+        </div>
+
+
+        <p style="text-align:justify; margin-right:15%; font-size:24px;">
+        IK Chicken
+        </p >
+        <video width="50%" controls> 
+            <source src="videos/ik-cd.mp4"> 
+        </video>
+        
+        <p style="text-align:justify; margin-right:15%; font-size:24px;">
+            Pose Tracking
+            </p >
+            <video width="50%" controls> 
+                <source src="videos/pose-tracking.mp4"> 
+            </video>
+
+        <p style="text-align:justify; margin-right:15%; font-size:24px;">
+            Face Tracking
+        </p >
+        <video width="50%" controls> 
+            <source src="videos/face-tracking.mp4"> 
+        </video>
+                    
+        <p style="text-align:justify; margin-right:15%; font-size:24px;">
+            Interactive Aquarium
+        </p >
+        <video width="100%" controls> 
+            <source src="videos/Interactiveaquarium.mp4"> 
+        </video>
+                    
+                
+
+
+    </body>
+
+</html>
